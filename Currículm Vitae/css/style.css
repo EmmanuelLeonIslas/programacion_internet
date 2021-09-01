@@ -1,0 +1,83 @@
+body{
+	background: #F0EFE2;
+}
+
+footer{
+	font: normal 100% 'lucida sans unicode', arial, sans-serif;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 10vh;
+	background: #29425E;
+	display: flex;
+	align-items: center;
+}
+
+img{
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+#banner{
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-bottom: 0%;
+}
+
+#banner:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#banner h1,p{
+	color: white;
+	position: relative;
+}
+
+#banner h1 a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#site-content{
+	position: relative;
+	width: 80%;
+	min-height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 60px;
+	background-color: white;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+	display: flex;
+}
+
+#site-content h3{
+	font: normal 200% 'century gothic';
+}
+
+#site-content p{
+	color: rgb(51, 60, 70);
+}
+
+.img-table{
+	max-width: 200px;
+}
+
+.menu-container a{
+	font: normal 140% 'century gothic';
+	line-height: 40px;
+	color: steelblue;
+}
