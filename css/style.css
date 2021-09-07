@@ -7,10 +7,11 @@ footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	min-height: 10vh;
+	height: 5vh;
 	background: #29425E;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 img{
@@ -23,6 +24,9 @@ img{
 }
 
 #banner{
+	height: 10vh;
+	display: flex;
+	align-items: center;
 	text-align: center;
 	background-position: center center;
 	background-size: cover;
@@ -54,11 +58,12 @@ img{
 #site-content{
 	position: relative;
 	width: 80%;
-	min-height: 50vh;
+	min-height: 85vh;
+	padding-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
-	margin-bottom: 60px;
+	margin-bottom: 5vh;
 	background-color: white;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 	display: flex;
